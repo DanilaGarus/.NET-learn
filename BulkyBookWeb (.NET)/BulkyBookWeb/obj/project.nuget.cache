@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jNXI4twOkm5DVoxZRJnYzrs6LlcUuwwnQ7BLox6l8AipJyq8XTCCTX+qAtraMyQSg2fuLOBznhgA0zjRy7+ZRg==",
+  "dgSpecHash": "oWkeD26vukkYYX/mIKLTqLVE1fyqaJULdYy5F0c3TGY50YI7+2M92pXTR0xUdVjDFYU2sIIqhcZC70BwjrzsdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\.NET\\BulkyBookWeb\\BulkyBookWeb\\BulkyBookWeb.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\BulkyBookWeb (.NET)\\BulkyBookWeb\\BulkyBookWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.4\\microsoft.aspnetcore.mvc.razor.extensions.6.0.4.nupkg.sha512",
