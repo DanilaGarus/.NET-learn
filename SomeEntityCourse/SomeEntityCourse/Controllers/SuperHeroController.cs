@@ -1,30 +1,13 @@
-﻿using Microsoft.AspNetCore.Html;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 namespace Some_Entity_course.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
 
-    public class SuperHeroController : ControllerBase 
+    public class SuperHeroController : ControllerBase
     {
-        
-        private static List<SuperHero> heroes = new List<SuperHero>
-        {
-            new SuperHero() {
-                Id = 1, 
-                Name = "Iron Man", 
-                FirstName = "Anthony", 
-                LastName = "Stark", 
-                Place = "Long Island"
-            },
-            new SuperHero() {
-                Id = 2, 
-                Name = "Spider Man", 
-                FirstName = "Peter", 
-                LastName = "Parker", 
-                Place = "NY City"
-            }
-        };
+
+        private static List<SuperHero> heroes;
 
         private readonly DataContext _context;
         
