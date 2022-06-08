@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\skinet\\API\\API.csproj": {}
+    "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\skinet\\API\\API.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\skinet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\skinet\\API\\API.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\skinet\\API\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -103,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\skinet\\Core\\Core.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -157,14 +157,14 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\skinet\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -181,8 +181,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\skinet\\Core\\Core.csproj"
+              "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Core\\Core.csproj"
               }
             }
           }

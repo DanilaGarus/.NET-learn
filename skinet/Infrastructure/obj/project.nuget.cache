@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2mYPqnGqqDjeqLrfOQDg+ni/Bx3eoPrFe1B6YsrkUXaoCW3YhhywKJTxAnA+1IJ0zXDqjumrhXuN6LKwCdQi8Q==",
+  "dgSpecHash": "j6W3Ezax9x9hmRClSw4c8LNsAbNQpTuBPGpgvBc02ppCCgguGerwUyxxBqyDJNIoetZ6Wr0aRu/S7rzbMC9llA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.0-preview.4.22229.2\\microsoft.data.sqlite.core.7.0.0-preview.4.22229.2.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0-preview.4.22229.2\\microsoft.entityframeworkcore.7.0.0-preview.4.22229.2.nupkg.sha512",
