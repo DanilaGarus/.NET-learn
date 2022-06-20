@@ -29,4 +29,21 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+    try
+    {
+        var context = services.GetRequiredService<StoreContext>();
+        await context.Database.MigrateAsync();
+        await StoreContextSeed.SeedAsync(context, loggerFactory);
+    }
+    catch (Exception e)
+    {
+        var logger = loggerFactory.CreateLogger<Program>();
+        logger.LogError(e, "Error occured during migration");
+    }
+}
+
 app.Run();

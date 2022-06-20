@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
 
+[ApiController]
 [Route("api/[controller]")]
 public class ProductsController : Controller
 {
@@ -19,7 +20,7 @@ public class ProductsController : Controller
     [HttpGet]
     public async Task<ActionResult<List<Products>>> GetProducts()
     {
-        var products = await _repository.GetProductdsAsync();
+        var products = await _repository.GetProductsAsync();
 
         return Ok(products);
     }
@@ -28,5 +29,17 @@ public class ProductsController : Controller
     public async Task<ActionResult<Products>> GetProduct(int id)
     {
         return await _repository.GetProductsByIdAsync(id);
+    }
+
+    [HttpGet("brands")]
+    public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
+    {
+        return Ok(await _repository.GetProductBrandsAsync());
+    }
+    
+    [HttpGet("types")]
+    public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()
+    {
+        return Ok(await _repository.GetProductTypesAsync());
     }
 }
