@@ -6,6 +6,7 @@ public class ProductsSpecParams
     public int PageIndex { get; set; } = 1;
 
     private int _pageSize = 6;
+    private string _sort = String.Empty;
 
     public int PageSize
     {
@@ -15,8 +16,8 @@ public class ProductsSpecParams
 
     public int? BrandId { get; set; }
     public int? TypeId { get; set; }
-    public string Sort { get; set; }
-    private string _search;
+    public string Sort { get => _sort; set => _sort = value; }
+    private string _search = String.Empty;
     public string Search 
     { 
         get => _search; 
