@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {HttpClientModule} from "@angular/common/http";
+import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {CoreModule} from "./core/core.module";
-import {ShopModule} from "./shop/shop.module";
-import { PaginationModule } from 'ngx-bootstrap/pagination';
+import {HomeModule} from "./home/home.module";
+import {ErrorInterceptor} from "./core/intersectors/error.interceptor";
 
 
 @NgModule({
@@ -20,10 +20,11 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
     BrowserAnimationsModule,
     HttpClientModule,
     CoreModule,
-    ShopModule,
-    PaginationModule.forRoot()
+    HomeModule
   ],
-  providers: [],
+  providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
