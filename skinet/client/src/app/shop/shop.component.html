@@ -45,7 +45,7 @@
         ></app-paging-header>
 
         <div class="form-inline mt-2" style="margin-left: auto">
-          <input #search class="form-control" style="width: 300px; margin-right: 10px" placeholder="Search" type="text">
+          <input (keyup.enter)="onSearch()"  #search class="form-control" style="width: 300px; margin-right: 10px" placeholder="Search" type="text">
         </div>
 
         <div class="font-inline mt-2">
