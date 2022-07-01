@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\API.csproj": {}
+    "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\API.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\API.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\api\\API.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\API\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\Git\\.NET-learn\\.NET-learn\\skinet\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -224,6 +224,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite.Core": {
               "target": "Package",
               "version": "[7.0.0-preview.4.22229.2, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.48, )"
             }
           },
           "imports": [
